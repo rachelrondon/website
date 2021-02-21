@@ -17,7 +17,7 @@ class Portfolio extends React.Component {
           title: 'Daily Routine x React',
           description: 'Daily Routine is a fitness website that I designed and developed that allows users to view curated yoga routines set to popular music. The SoundCloud API was utilized for this website.',
           image: ImageOne,
-          imageText: "Daily Routine Image"
+          imageText: "Daily Routine Image",
           icon: CssIcon,
           iconText: "Css Icon",
           iconOne: Html5Icon,
