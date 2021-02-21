@@ -34,7 +34,7 @@ class Portfolio extends React.Component {
           title: 'House Keys x React',
           description: 'House Keys is a roommate finder website that I created with a team of developers and utilizes the Google Maps API.',
           image: ImageTwo,
-          imageTxt: "House Keys Image"
+          imageTxt: "House Keys Image",
           icon: CssIcon,
           iconText: "Css Icon",
           iconOne: Html5Icon,
