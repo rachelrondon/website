@@ -15,7 +15,7 @@ const NavBar = () => {
 
   return (
     <nav className="nav">
-      <p className="nav-logo">Rachel Rondon</p>
+      <h1 className="nav-logo">Rachel Rondon</h1>
       <ul className="nav-links">
         {links.map((link) => {
           return (
