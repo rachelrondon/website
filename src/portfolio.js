@@ -17,6 +17,7 @@ class Portfolio extends React.Component {
           title: 'Daily Routine x React',
           description: 'Daily Routine is a fitness website that I designed and developed that allows users to view curated yoga routines set to popular music. The SoundCloud API was utilized for this website.',
           image: ImageOne,
+          imageText: "Daily Routine Image"
           icon: CssIcon,
           iconText: "Css Icon",
           iconOne: Html5Icon,
@@ -33,6 +34,7 @@ class Portfolio extends React.Component {
           title: 'House Keys x React',
           description: 'House Keys is a roommate finder website that I created with a team of developers and utilizes the Google Maps API.',
           image: ImageTwo,
+          imageTxt: "House Keys Image"
           icon: CssIcon,
           iconText: "Css Icon",
           iconOne: Html5Icon,
@@ -55,7 +57,7 @@ class Portfolio extends React.Component {
         {this.state.projects.map((project) => {
           return (
             <section className="card">
-              <img className="card-image" src={project.image}></img>
+              <img className="card-image" alt={project.imageTxt} src={project.image}></img>
               <article className="card-details">
                 <p className="card-title">{project.title}</p>
                 <ul className="card-icons">
