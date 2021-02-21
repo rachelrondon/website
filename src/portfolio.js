@@ -18,10 +18,15 @@ class Portfolio extends React.Component {
           description: 'Daily Routine is a fitness website that I designed and developed that allows users to view curated yoga routines set to popular music. The SoundCloud API was utilized for this website.',
           image: ImageOne,
           icon: CssIcon,
+          iconText: "Css Icon",
           iconOne: Html5Icon,
+          iconOneText: "HTML Icon",
           iconTwo: JsIcon,
+          iconTwoText: "JS Icon",
           iconThree: ReactIcon,
+          iconThreeText: "React Icon",
           iconFour: SoundCloudIcon,
+          iconFourText: "Sound Cloud Icon",
           link: "https://github.com/rachelrondon/infinite_yoga-"
         },
         {
@@ -29,10 +34,15 @@ class Portfolio extends React.Component {
           description: 'House Keys is a roommate finder website that I created with a team of developers and utilizes the Google Maps API.',
           image: ImageTwo,
           icon: CssIcon,
+          iconText: "Css Icon",
           iconOne: Html5Icon,
+          iconOneText: "HTML Icon",
           iconTwo: JsIcon,
+          iconTwoText: "JS Icon",
           iconThree: ReactIcon,
+          iconThreeText: "React Icon",
           iconFour: "",
+          iconFourText: "",
           link: "https://github.com/housekeys"
         },
       ],
@@ -42,6 +52,7 @@ class Portfolio extends React.Component {
   render() {
     return (
       <div className="portfolio">
+        <h1 className="portfolio-name">Rachel Rondon</h1> 
         {this.state.projects.map((project) => {
           return (
             <section className="card">
@@ -49,11 +60,11 @@ class Portfolio extends React.Component {
               <article className="card-details">
                 <p className="card-title">{project.title}</p>
                 <ul className="card-icons">
-                  <li><img className="card-icon" src={project.icon}></img></li>
-                  <li><img className="card-icon" src={project.iconOne}></img></li>
-                  <li><img className="card-icon" src={project.iconTwo}></img></li>
-                  <li><img className="card-icon" src={project.iconThree}></img></li>
-                  <li><img className="card-icon" src={project.iconFour}></img></li>
+                  <li><img className="card-icon" src={project.icon} alt={project.iconText}></img></li>
+                  <li><img className="card-icon" src={project.iconOne} alt={project.iconTextOne}></img></li>
+                  <li><img className="card-icon" src={project.iconTwo} alt={project.iconTextTwo}></img></li>
+                  <li><img className="card-icon" src={project.iconThree} alt={project.iconTextThree}></img></li>
+                  <li><img className="card-icon" src={project.iconFour} alt={project.iconTextFour}></img></li>
                 </ul>
                 <p className="card-description">{project.description}</p>
                 <a className="card-link" href={project.link} target="_blank">GITHUB</a>

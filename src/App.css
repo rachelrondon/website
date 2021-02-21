@@ -80,6 +80,13 @@
   list-style: none;
 }
 
+.portfolio-name {
+  font-family: 'Alex Brush', cursive;
+  font-size: 5rem;
+  font-weight: lighter;
+  margin: 10rem; 
+}
+
 .scrolled{
   position: fixed;
   top: 0;

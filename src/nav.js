@@ -4,10 +4,12 @@ import Logo from './logo.png';
 const NavBar = () => {
   const [links, setLinks] = useState([
     { title: "LINKEDIN",
-      link: "https://www.linkedin.com/in/rachelrondon/"
+      link: "https://www.linkedin.com/in/rachelrondon/",
+      class: "nav-link linkedin-link",
     },
     { title: "GITHUB",
       link: "https://github.com/rachelrondon",
+      class: "nav-link github-link",
     }
   ])
 
@@ -17,7 +19,7 @@ const NavBar = () => {
       <ul className="nav-links">
         {links.map((link) => {
           return (
-            <li className="nav-link"><a target="_blank" href={link.link}>{link.title}</a></li>
+            <li className={link.class}><a target="_blank" href={link.link}>{link.title}</a></li>
           )
         })}
       </ul>
