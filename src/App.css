@@ -95,11 +95,16 @@
 
   .card .card-details {
     width: 40%;
-    margin: 10rem 0;
+    padding-top: 7rem;
   }
-  
+
   .card .card-image {
     height: auto;
     width: 60%;
+  }
+
+  .nav .nav-links {
+    display: flex;
+    flex-direction: column;
   }
 }

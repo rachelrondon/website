@@ -17,7 +17,7 @@ const NavBar = () => {
       <ul className="nav-links">
         {links.map((link) => {
           return (
-            <li className="nav-link"><a href={link.link}>{link.title}</a></li>
+            <li className="nav-link"><a target="_blank" href={link.link}>{link.title}</a></li>
           )
         })}
       </ul>
