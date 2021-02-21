@@ -44,9 +44,9 @@ class Portfolio extends React.Component {
       <div className="portfolio">
         {this.state.projects.map((project) => {
           return (
-            <div className="card">
+            <section className="card">
               <img className="card-image" src={project.image}></img>
-              <div className="card-details">
+              <article className="card-details">
                 <p className="card-title">{project.title}</p>
                 <ul className="card-icons">
                   <li><img className="card-icon" src={project.icon}></img></li>
@@ -57,8 +57,8 @@ class Portfolio extends React.Component {
                 </ul>
                 <p className="card-description">{project.description}</p>
                 <a className="card-link" href={project.link} target="_blank">GITHUB</a>
-              </div>
-            </div>
+              </article>
+            </section>
           )
         })}
       </div>
