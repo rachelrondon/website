@@ -73,6 +73,7 @@
 .nav .nav-logo {
   font-family: 'Alex Brush', cursive;
   font-size: 2rem;
+  font-weight: lighter;
   margin: 0;
 }
 
@@ -84,7 +85,7 @@
   font-family: 'Alex Brush', cursive;
   font-size: 5rem;
   font-weight: lighter;
-  margin: 10rem; 
+  margin: 10rem;
 }
 
 .scrolled{
