@@ -60,10 +60,10 @@ class Portfolio extends React.Component {
                 <p className="card-title">{project.title}</p>
                 <ul className="card-icons">
                   <li><img className="card-icon" src={project.icon} alt={project.iconText}></img></li>
-                  <li><img className="card-icon" src={project.iconOne} alt={project.iconTextOne}></img></li>
-                  <li><img className="card-icon" src={project.iconTwo} alt={project.iconTextTwo}></img></li>
-                  <li><img className="card-icon" src={project.iconThree} alt={project.iconTextThree}></img></li>
-                  <li><img className="card-icon" src={project.iconFour} alt={project.iconTextFour}></img></li>
+                  <li><img className="card-icon" src={project.iconOne} alt={project.iconOneText}></img></li>
+                  <li><img className="card-icon" src={project.iconTwo} alt={project.iconTwoText}></img></li>
+                  <li><img className="card-icon" src={project.iconThree} alt={project.iconThreeText}></img></li>
+                  <li><img className="card-icon" src={project.iconFour} alt={project.iconFourText}></img></li>
                 </ul>
                 <p className="card-description">{project.description}</p>
                 <a className="card-link" href={project.link} target="_blank">GITHUB</a>
