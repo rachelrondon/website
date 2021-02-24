@@ -1,4 +1,4 @@
-This a re-design / rebuild for my portfolio website. This is in-progress and has not been deployed yet. 
+This a re-design / rebuild for my portfolio website that is in-progress. 
 
 ## Technologies
 - [Create React App](https://github.com/facebookincubator/create-react-app)
